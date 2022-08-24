@@ -1,12 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import StartHere from './components/StartHere';
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+    <div className="App p-3">
+      <StartHere />
     </div>
   );
 }
