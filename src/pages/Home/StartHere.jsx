@@ -1,4 +1,5 @@
 import React from 'react'
+import { UploadButton } from '../../components/UploadButton'
 
 const StartHere = () => {
   return (
@@ -10,18 +11,12 @@ const StartHere = () => {
           </h1>
         </div>
         <div>
-          <TailwindCSSButton>
+          <UploadButton>
             Upload Receipt
-          </TailwindCSSButton>
+          </UploadButton>
         </div>
       </div>
     </div>
-  )
-}
-
-function TailwindCSSButton(props) {
-  return (
-    <button className="bg-eucalyptus text-white font-medium px-4 py-2 rounded hover:bg-greenHaze">{props.children}</button>
   )
 }
 

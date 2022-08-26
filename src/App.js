@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import StartHere from './components/StartHere';
+import StartHere from './pages/Home/StartHere';
 
 function App() {
   return (
